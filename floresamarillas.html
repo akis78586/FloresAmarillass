@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="golden-glow"></div>
+    <div class="frame"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="titulo">Las flores amarillas simbolizan la felicidad</h1>
+            <p class="subtitulo">Tú eres la mía ❤️</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="cat-container">
+                <div class="cat-frame"></div>
+                <img class="gif-middle" src="https://i.pinimg.com/originals/9b/8b/16/9b8b16e0435d8cccd334dc65fffb5fe1.gif" alt="Gato amarillo adorable">
+            </div>
+            
+            <!-- Área de mensajes (reemplaza el panel de música) -->
+            <div class="message-display-area" id="message-display">
+                <!-- Los mensajes aparecerán aquí -->
+            </div>
+        </div>
+        
+        <div class="message-container">
+            <button class="reveal-btn" id="reveal-btn">Descubre un mensaje especial</button>
+            <div class="special-message" id="special-message">
+                Cada día a tu lado es como un campo de flores amarillas: brillante, alegre y lleno de felicidad. Eres el sol que ilumina mi vida.
+            </div>
+        </div>
+    </div>
+    
+    <!-- Botón de sonido en esquina superior derecha -->
+    <div class="sound-control" id="music-control">
+        <i class="fas fa-volume-up"></i>
+    </div>
+    
+    <div class="gif-bottom-bar" id="gif-bottom-bar"></div>
+
+    <audio id="bg-music" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
