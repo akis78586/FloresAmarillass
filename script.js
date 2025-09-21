@@ -41,7 +41,7 @@ const specialMessage = document.getElementById('special-message');
 const messageDisplay = document.getElementById('message-display');
 
 // URL de la canción (seleccionada por defecto)
-const defaultSongUrl = "https://github.com/Asprog3rX/Tareas/raw/refs/heads/main/saim.co.za%20-%20Coldplay%20-%20Yellow(Sub%20Espa%C3%B1ol%20Lyrics)%20(256%20KBps)%20(1).mp3";
+const defaultSongUrl = "";
 
 // Partículas amarillas cayendo
 function createBgParticle() {
